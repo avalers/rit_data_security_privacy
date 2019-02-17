@@ -7,7 +7,7 @@ https://dev.mysql.com/downloads/mysql/
 
 2) Execute the SQL Scripts  in the MySQL Workbench
 a)Create the user for the application.
-CREATE USER 'ritCourses@'localhost' IDENTIFIED BY ‘Rit@2018’;
+CREATE USER 'ritCourses'@'localhost' IDENTIFIED BY 'Rit@2018';
  GRANT SELECT
     	ON securedb.* TO ritCourses@'localhost'
  WITH GRANT OPTION;
